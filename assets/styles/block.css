@@ -1,0 +1,32 @@
+.container {
+    background-color: #2d2b3f;
+    color: aliceblue;
+
+    padding: 4px 10px;
+    margin-left: 5px;
+    border-radius: 16px;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    min-width: 24px;
+    height: 21px;
+
+    cursor: pointer;
+    transition: all 200ms ease-out;
+
+    &:hover {
+        background-color: #4b4a57;
+        border-radius: 8px;
+    }
+
+    span {
+        margin-left: 5px;
+    }
+
+    svg {
+        margin: auto;
+        height: 100%;
+    }
+}

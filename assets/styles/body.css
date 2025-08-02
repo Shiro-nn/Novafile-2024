@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    background-image: url("/bin/hero.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #161e2e;
+    color: aliceblue;
+}
